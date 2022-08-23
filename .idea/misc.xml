@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/drawable-v24/circular_progress_bar.xml" value="0.131" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/drawable-v24/ic_baseline_camera_24.xml" value="0.131" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/drawable/backgroun_border.xml" value="0.1295" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/drawable/button_back_round.xml" value="0.129" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/drawable/dept_back.xml" value="0.179" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/drawable/dept_back_selected.xml" value="0.179" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/layout/activity_main.xml" value="0.1524390243902439" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/layout/fragment_add_new_employee.xml" value="0.22" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/layout/fragment_attendance_stat.xml" value="0.1703125" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/layout/fragment_employee_details.xml" value="0.1703125" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/layout/fragment_home.xml" value="0.1703125" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/layout/fragment_manage_employee.xml" value="0.2" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/layout/item_dept.xml" value="0.25" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/layout/item_profile.xml" value="0.25" />
+        <entry key="..\:/others/SayandeepProject/TutNav/app/src/main/res/menu/activity_main.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

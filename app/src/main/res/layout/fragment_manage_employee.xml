@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragments.ManageEmployeeFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        <!-- TODO: Update blank fragment layout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:gravity="center"
+                    >
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight=".4"
+                        android:layout_marginEnd="5dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/img_select_viewAll"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/border_selecter" />
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/login_crd"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            app:cardCornerRadius="25dp"
+                            android:layout_margin="1dp"
+                            android:clickable="true"
+                            >
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="View All"
+                                android:textSize="16sp"
+                                android:textAlignment="center"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                />
+
+
+                        </androidx.cardview.widget.CardView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight=".4"
+                        android:layout_marginEnd="5dp"
+                        >
+                        <ImageView
+                            android:id="@+id/img_select_addNew"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/border_selecter"
+                            android:visibility="gone"
+                            android:scaleType="fitXY"/>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/signup_crd"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            app:cardCornerRadius="25dp"
+                            android:layout_margin="1dp"
+                            android:clickable="true"
+                            >
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Add New"
+                                android:textSize="16sp"
+                                android:textAlignment="center"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                />
+
+
+                        </androidx.cardview.widget.CardView>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/mFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+</layout>
